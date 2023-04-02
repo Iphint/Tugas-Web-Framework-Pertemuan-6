@@ -1,4 +1,3 @@
-/* eslint-disable no-unreachable */
 import '../style/List.css';
 
 const TodoList = ({ todos }) => {
@@ -12,17 +11,6 @@ const TodoList = ({ todos }) => {
           </div>
         );
       })}
-
-      {/* <ul>
-        {todos.map((item) => {
-            return (
-                <li key={item}>
-                <input type="checkbox" className="check" />
-                <p>{item}</p>
-                </li>
-                );
-            })}
-        </ul> */}
     </div>
   );
 };
